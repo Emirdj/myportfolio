@@ -1,0 +1,82 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.container {
+    max-width: 900px;
+    display: flex;
+}
+#about {
+    padding: 60px 0;
+    background: linear-gradient(45deg, #3111dd, #cd3edb);
+}
+
+#about img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #cd3edb;
+    margin: 10px 0 30px 0;
+}
+#about .about-card {
+    background-color: white;
+    width: 33%;
+    margin: 20px;
+    padding: 30px;
+    box-shadow: 2px 3px 8px rgb(0, 0, 0,);
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+#about h4 {
+font-size: 20px;
+text-align: center;
+}
+#about ul {
+    margin: 20px;
+    list-style-type: none;
+}
+#about li {
+    line-height: 1.5;
+}
+#about li::before{
+    content: '\2014 s';
+}
+#hero {
+    background: url('../img/7.341792.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 0 !important;
+}
+.hero-content {
+    background-color: rgba(98, 185, 134, 0.7);
+    width: 400px;
+    height: 100%;
+    padding: 30px;
+    padding: 0 40px;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    color: white;
+    align-items:flex-end;
+    position:absolute;
+    right: 100px;
+}
+.hero-content p {
+    margin-bottom: 140px;
+    position: relative;
+}
+.hero-content p::before {
+    content: '';
+    position: absolute;
+    background-color: white;
+    width: 120px;
+    height: 6px;
+    top: -20px;
+
+}
